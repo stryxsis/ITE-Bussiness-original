@@ -22,6 +22,7 @@ body {
   color: var(--text);
   /* Fa in maniera tale che se c'è qualche lemento che potrebbe fuori uscire non lo fa fuoriuscire */
   overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 
 /* Utility Classes */
