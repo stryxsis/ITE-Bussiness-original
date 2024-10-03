@@ -154,6 +154,7 @@ nav {
   border-radius: 20px;
   box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
   overflow: hidden;
+  animation: jass 3s linear infinite;
 }
 
 /* Service Section */
@@ -359,6 +360,15 @@ footer {
   border-top: 1px solid rgba(255, 255, 255, 0.1);
   color: rgba(255, 255, 255, 0.7);
 }
+
+@keyframes jass {
+  0%{
+    background-image: url(./prova.png);
+  }
+  50%{
+    background-image: url(./prova2.jpg);
+  }
+} 
 
 /* Responsive desing */
 @media (max-width: 1024px) {
