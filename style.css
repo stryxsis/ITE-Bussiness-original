@@ -147,7 +147,10 @@ nav {
 .hero-image {
   position: relative;
   height: 500px;
-  background-image: url("image 600x500") center/cover;
+  /* background-image: url("./prova.png") center/cover; */
+  background-image: url(./prova.png);
+  background-position: center;
+  background-size: cover;
   border-radius: 20px;
   box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
   overflow: hidden;
