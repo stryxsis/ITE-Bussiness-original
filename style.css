@@ -17,12 +17,15 @@
   font-family: "Poppins", sans-serif;
 }
 
+html{
+  scroll-behavior: smooth;
+}
+
 body {
   background-color: var(--bg-light);
   color: var(--text);
   /* Fa in maniera tale che se c'è qualche lemento che potrebbe fuori uscire non lo fa fuoriuscire */
   overflow-x: hidden;
-  scroll-behavior: smooth;
 }
 
 /* Utility Classes */
@@ -322,7 +325,6 @@ label:has(+ select:required)::after{
   background-color: var(--accent);
   border-radius: 15px;
   align-content: center;
-
 }
 
 .btn-up > a {
