@@ -322,7 +322,7 @@ label:has(+ select:required)::after{
   right: 100px;
   width: 4rem;
   height: 4rem;
-  background-color: var(--accent);
+  background-color: #00f59fb0;
   border-radius: 15px;
   align-content: center;
 }
