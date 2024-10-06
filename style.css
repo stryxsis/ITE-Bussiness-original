@@ -344,7 +344,7 @@ label:has(+ select:required)::after{
   right: 100px;
   width: 4rem;
   height: 4rem;
-  background-color: #00f59fb0;
+  background-color: var(--primary-dark);
   border-radius: 15px;
   align-content: center;
 }
@@ -354,7 +354,6 @@ label:has(+ select:required)::after{
   text-decoration: none;
   -webkit-background-clip: text;
   background-clip: text;
-  -webkit-text-fill-color: transparent;
 }
 
 
